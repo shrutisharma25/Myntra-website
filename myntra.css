@@ -1,0 +1,114 @@
+@import url('https://fonts.googleapis.com/css2?family=Bungee+Shade&display=swap');
+   *{
+    background-color: rgb(234, 235, 240);
+    align-items: center;
+    margin: 0%;
+    padding:0;
+}
+.logo,ul{
+    display: flex;
+}
+.logo{
+    margin-top: 20px;
+}
+nav{
+    border: 2px white solid;
+    background-color:white;
+    padding: 10px;
+    margin-top: 0px;
+    position: sticky;
+    top: 0px;}
+.divnav{
+    display: inline-block;
+}
+#divnav{
+    margin-left: 560px;
+    padding-top: 0px ;
+}
+li{
+    list-style: none;
+    display: flex;
+    font-family:'Lucida Sans';
+    font-size: 30px;
+    font-weight: bolder;
+    font-style: oblique;
+    background-color: white;    
+    padding-left: 30px;
+}
+a{
+    color: black;
+    text-decoration: none;
+    background-color: white;
+}
+a:hover{
+    color: black;
+    font-size: 30px;
+    transition-duration: 0.5s;
+    border-color: black;
+    text-decoration: solid rgb(219, 23, 23) 5px underline;
+}
+.z1asCe {
+    background-color: transparent;
+    display: inline-block;
+    height: 24px;
+    line-height: 24px;
+    right:900px ;
+    top:21px;
+    position: absolute;
+    width: 24px;
+}
+.b2{
+    margin-left: 50px;
+}
+input{
+    
+    padding: auto;
+    background-color: rgb(227, 231, 231);
+    border: 2px rgb(19, 18, 18) solid;
+    padding-left: 30px;
+    margin-top: 0px;
+    margin-right: 10px;
+    border-radius: 15px;
+    width: 250px;
+    height: 30px;
+}
+.p1{
+    text-align: center;
+    color: rgb(12, 71, 73);
+    font-size: 50px;
+    font-weight: 10px;
+    font-display:initial ;
+    font-family: 'Bungee Shade', cursive;
+    padding:0%;
+}
+.b{
+    text-align: center;
+    font-family:'Arial Narrow Bold';
+    font-size: 60px;
+    color: rgb(5, 3, 3);
+    border: 2px white solid;
+    background-color: white;
+}
+#p2{
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    margin-top: 15px;
+    margin-bottom: 15px;
+}
+.b3{
+    height: 300px;
+    width: 200px;
+    border: 3px darkslategrey solid;
+    border-radius: 10px;
+    box-shadow: 2px 2px 2px black ;
+}
+.b3:hover{
+    border: 2px rgb(4, 9, 83) solid;
+    border-radius: 20px;
+    height:350px;
+    width: 250px;
+    box-shadow: 10px 10px 10px black ;
+    transition-duration: 0.5;
+    transition-timing-function: ease-in-out;
+}
